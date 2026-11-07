@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+/*
+ * Tokens de cor (docs/SDD.md, seção 4).
+ * O tema claro é o padrão. O escuro vale quando o <html> tem
+ * data-theme="dark" ou quando o sistema prefere escuro e o visitante
+ * não escolheu o claro explicitamente.
+ */
+:root {
+  color-scheme: light;
+  --page: #f2faf7;
+  --surface: #ffffff;
+  --surface-alt: #e4f4ef;
+  --ink: #0b2a30;
+  --muted: #3f585b;
+  --line: #cde2dc;
+  --primary: #08706b;
+  --on-primary: #ffffff;
+  --tag: #d8f0e9;
+  --on-tag: #07504c;
+  --panel: #0b2a30;
+  --on-panel: #e6f3f0;
+  --hero: #05393a;
+  --hero-card: #0b4a4a;
+  --hero-line: #1c6462;
+  --focus: #1d5fd1;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #07161a;
+  --surface: #0e2328;
+  --surface-alt: #143033;
+  --ink: #e8f4f1;
+  --muted: #a8c3be;
+  --line: #21403f;
+  --primary: #4fd6bc;
+  --on-primary: #06211f;
+  --tag: #173a37;
+  --on-tag: #9be6d5;
+  --panel: #12302f;
+  --on-panel: #e8f4f1;
+  --hero: #0a2e2f;
+  --hero-card: #103d3d;
+  --hero-line: #1f5553;
+  --focus: #9cc2ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #07161a;
+    --surface: #0e2328;
+    --surface-alt: #143033;
+    --ink: #e8f4f1;
+    --muted: #a8c3be;
+    --line: #21403f;
+    --primary: #4fd6bc;
+    --on-primary: #06211f;
+    --tag: #173a37;
+    --on-tag: #9be6d5;
+    --panel: #12302f;
+    --on-panel: #e8f4f1;
+    --hero: #0a2e2f;
+    --hero-card: #103d3d;
+    --hero-line: #1f5553;
+    --focus: #9cc2ff;
+  }
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-tag: var(--tag);
+  --color-on-tag: var(--on-tag);
+  --color-panel: var(--panel);
+  --color-on-panel: var(--on-panel);
+  --color-hero: var(--hero);
+  --color-hero-card: var(--hero-card);
+  --color-hero-line: var(--hero-line);
+  --color-focus: var(--focus);
+
+  /* Cores fixas nos dois temas */
+  --color-vital: #5ef0c8;
+  --color-cta: #ff6b4a;
+  --color-on-cta: #2a0e07;
+
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-card: 20px 20px 20px 6px;
+}
+
+/* Contêiner padrão das seções: largura máxima e margem lateral fluida */
+@utility page-container {
+  width: 100%;
+  max-width: 1160px;
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 24px);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-page);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+  }
+
+  a {
+    color: var(--color-primary);
+  }
+
+  a:hover {
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-tag);
+    color: var(--color-on-tag);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
