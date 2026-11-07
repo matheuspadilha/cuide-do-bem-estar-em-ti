@@ -19,17 +19,17 @@ export default function Hero() {
             Resumos curtos e diretos do que o Ministério da Saúde e a OMS recomendam para quem
             trabalha no computador, sempre com o link para a fonte original.
           </p>
-          <div className="mt-1.5 flex flex-wrap gap-3">
+          <div className="mt-1.5 flex flex-wrap gap-3 max-[480px]:self-stretch">
             <a
               href="#categorias"
-              className="inline-flex min-h-[54px] items-center gap-2 rounded-full bg-cta px-[30px] text-lg font-semibold text-on-cta no-underline hover:text-on-cta hover:brightness-105 focus-visible:outline-white"
+              className="inline-flex min-h-[54px] items-center justify-center gap-2 rounded-full bg-cta max-[480px]:w-full px-[30px] text-lg font-semibold text-on-cta no-underline hover:text-on-cta hover:brightness-105 focus-visible:outline-white"
             >
               Ver os artigos
               <ArrowRightIcon className="size-[18px]" />
             </a>
             <a
               href="#sobre"
-              className="inline-flex min-h-[54px] items-center rounded-full border border-[#6fa9a2] px-[26px] font-semibold text-white no-underline hover:border-vital hover:text-white focus-visible:outline-white"
+              className="inline-flex min-h-[54px] items-center justify-center rounded-full border max-[480px]:w-full border-[#6fa9a2] px-[26px] font-semibold text-white no-underline hover:border-vital hover:text-white focus-visible:outline-white"
             >
               Conhecer o projeto
             </a>

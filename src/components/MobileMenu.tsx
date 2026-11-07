@@ -31,7 +31,7 @@ export default function MobileMenu() {
         aria-label={open ? "Fechar menu" : "Abrir menu"}
         aria-expanded={open}
         aria-controls="menu-celular"
-        className="inline-flex size-11 items-center justify-center rounded-xl border border-line bg-surface-alt text-ink min-[960px]:hidden"
+        className="inline-flex size-11 items-center justify-center rounded-full border border-line bg-surface-alt text-ink min-[960px]:hidden"
       >
         {open ? <CloseIcon className="size-5" /> : <MenuIcon className="size-5" />}
       </button>
