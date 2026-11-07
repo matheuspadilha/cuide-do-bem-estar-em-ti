@@ -283,6 +283,7 @@ interface Article {
 - Tokens no `globals.css` com `@theme` do Tailwind 4 e variáveis CSS por tema.
 - Links externos com `target="_blank"` e `rel="noopener noreferrer"`.
 - Metadados: título, descrição, Open Graph, `sitemap` e `robots`.
+- Cabeçalhos de segurança no `next.config.ts`, em todas as rotas: `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin` e `Permissions-Policy` sem câmera, microfone e localização. HTTPS e HSTS ficam por conta da Vercel.
 
 ---
 
@@ -341,6 +342,7 @@ Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os 
 | Botão de pausa da animação | Exigência da WCAG 2.2.2 para movimento contínuo |
 | Botão "Voltar ao topo" com foco no logo | Facilita a navegação em página longa, inclusive por teclado |
 | E-mail do projeto: `cuidedobemestaremti@gmail.com` | Conta dedicada evita expor o e-mail pessoal e passa confiança |
+| Cabeçalhos de segurança sem CSP completa | A CSP exigiria nonce no script de tema, o que tira a geração estática; o site não tem dados nem formulários |
 | Prefixo `chore:` na Etapa 13 | Não há testes automatizados no escopo |
 
 ---
