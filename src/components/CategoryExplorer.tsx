@@ -84,9 +84,9 @@ export default function CategoryExplorer() {
           </p>
         </div>
 
-        <ul className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4">
+        <ul className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 max-[1100px]:grid-cols-2 max-[640px]:grid-cols-1">
           {selectedArticles.map((article) => (
-            <li key={article.id}>
+            <li key={article.id} className="min-[640px]:max-[1100px]:last:odd:col-span-2">
               <ArticleCard article={article} />
             </li>
           ))}
