@@ -313,6 +313,7 @@ Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os 
 
 - Três links do gov.br passaram a exigir login e foram trocados: o Guia Alimentar aponta para a mesma obra na BVS; "Dez passos" aponta para a versão resumida oficial; o artigo de 2018 sobre atividade física e sono deu lugar à notícia da OPAS/OMS sobre as diretrizes de atividade física.
 - O artigo "Guia Alimentar em versão resumida" deu lugar à notícia do Ministério da Saúde sobre os 10 anos do Guia (2024).
+- NR-17: link trocado pelo texto vigente (revisão de 2021, consolidado em 2023) e resumo ajustado a ele.
 - Ajustes de texto: ONU News ("carga horária"), cartilha do TCE-SP (sem afirmar que é ilustrada) e "O sono é essencial para a saúde" (orientações concretas da página).
 
 ---

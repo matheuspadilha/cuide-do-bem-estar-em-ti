@@ -61,9 +61,12 @@ O modo celular simula rede 4G lenta e CPU limitada. Repetir a medição na URL d
 
 Em monitor ultrawide (34", 3440 px), a linha de batimento do topo terminava por volta de 80% da largura. A animação dependia do comprimento do traço, calculado antes de a linha ser esticada. Ela passou a revelar a linha por recorte da área visível (`clip-path`), e a linha virou um padrão repetido que não é esticado. Conferido em 390, 1360, 2560 e 3440 px, com e sem movimento reduzido, e os testes de requisitos foram repetidos no Chromium e no WebKit.
 
+## Atualização posterior
+
+O link da NR-17 apontava para o texto anterior à revisão de 2021 (Portaria MTP nº 423). Foi trocado pelo texto vigente consolidado, publicado na página de normas regulamentadoras vigentes do Ministério do Trabalho e Emprego, e o resumo foi conferido contra ele.
+
 ## Pendências
 
 - **Firefox:** o navegador de teste não abre no ambiente isolado usado na validação. Testar manualmente no Firefox atual.
 - **Medição na produção:** repetir o Lighthouse na URL publicada na Vercel.
-- **NR-17:** o PDF linkado parece ser a versão anterior à revisão de 2021; avaliar troca pela versão vigente.
 - **E-mail do projeto:** preencher `src/data/contact.ts` quando o endereço existir.

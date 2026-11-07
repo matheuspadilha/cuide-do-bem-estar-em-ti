@@ -67,9 +67,9 @@ export const articles: Article[] = [
     category: "home-office",
     title: "NR-17: o conforto no trabalho previsto em norma",
     summary:
-      "A norma brasileira de ergonomia parte de um princípio simples: o posto de trabalho é que deve se adaptar à pessoa. Para o trabalho sentado, prevê cadeira com apoio lombar e apoio para os pés quando necessário.",
+      "A norma brasileira de ergonomia parte de um princípio simples: as condições de trabalho é que devem se adaptar à pessoa. Para quem trabalha sentado, prevê espaço para pernas e pés, encosto que proteja a região lombar e, quando necessário, apoio para os pés.",
     source: "Ministério do Trabalho e Emprego",
-    url: "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-17.pdf",
+    url: "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf",
     accessedAt: "2026-11-07",
   },
   {
