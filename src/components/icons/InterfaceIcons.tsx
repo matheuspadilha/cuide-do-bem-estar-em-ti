@@ -51,6 +51,15 @@ export function ArrowRightIcon(props: IconProps) {
   );
 }
 
+export function ExternalLinkIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" strokeWidth={2.2} aria-hidden="true" {...strokeProps} {...props}>
+      <path d="M7 17L17 7" />
+      <path d="M9 7h8v8" />
+    </svg>
+  );
+}
+
 export function PlayIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>

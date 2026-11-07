@@ -307,13 +307,13 @@ interface Article {
 
 Responsividade e acessibilidade são construídas desde a Etapa 04; as Etapas 11 e 12 são revisões.
 
-### Trabalho de conteúdo em paralelo
+### Conferência de conteúdo
 
-Concluir antes de fechar a Etapa 07:
+Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os documentos originais.
 
-- Conferir os 18 resumos ainda não verificados contra os documentos originais (o de "Dicas práticas para dormir melhor" já foi conferido).
-- Abrir manualmente o link da ONU News, que bloqueia verificação automática.
-- Registrar a data de consulta de cada fonte.
+- Três links do gov.br passaram a exigir login e foram trocados: o Guia Alimentar aponta para a mesma obra na BVS; "Dez passos" aponta para a versão resumida oficial; o artigo de 2018 sobre atividade física e sono deu lugar à notícia da OPAS/OMS sobre as diretrizes de atividade física.
+- O artigo "Guia Alimentar em versão resumida" deu lugar à notícia do Ministério da Saúde sobre os 10 anos do Guia (2024).
+- Ajustes de texto: ONU News ("carga horária"), cartilha do TCE-SP (sem afirmar que é ilustrada) e "O sono é essencial para a saúde" (orientações concretas da página).
 
 ---
 
@@ -344,81 +344,6 @@ Concluir antes de fechar a Etapa 07:
 
 ---
 
-## Apêndice A — Conteúdo inicial (19 artigos)
+## Apêndice A — Conteúdo
 
-Resumos ainda sujeitos à conferência descrita na seção 11.
-
-### Saúde Mental (3)
-
-- **Burnout: como reconhecer e quando procurar ajuda** — Ministério da Saúde
-  - Resumo: A Síndrome do Esgotamento Profissional é um distúrbio emocional ligado ao excesso de trabalho. Tem tratamento, e a orientação é buscar apoio profissional já nos primeiros sintomas.
-  - Link: https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/sindrome-de-burnout
-- **Burnout é um fenômeno ocupacional, diz a OMS** — OPAS/OMS
-  - Resumo: Na classificação internacional de doenças (CID-11), o burnout aparece como fenômeno ligado ao contexto de trabalho, resultado de estresse crônico não gerenciado, e não como uma condição médica.
-  - Link: https://www.paho.org/pt/noticias/28-5-2019-cid-burnout-e-um-fenomeno-ocupacional
-- **Saúde mental no SUS: como buscar atendimento** — Ministério da Saúde
-  - Resumo: Mostra onde encontrar apoio na rede pública. Os Centros de Atenção Psicossocial (CAPS) podem ser acessados de forma espontânea ou por encaminhamento de outros serviços de saúde.
-  - Link: https://www.gov.br/saude/pt-br/assuntos/noticias/2025/setembro/saude-mental-no-sus-saiba-como-buscar-atendimento
-
-### Home Office Saudável (4)
-
-- **As vantagens de trabalhar de casa, segundo OMS e OIT** — ONU News
-  - Resumo: Mais equilíbrio entre vida profissional e pessoal, flexibilidade de horário e o fim do trajeto casa-trabalho estão entre os benefícios listados. Com um bom espaço e combinados claros, dá para aproveitar todos eles.
-  - Link: https://news.un.org/pt/story/2022/02/1778552
-- **Monte um posto confortável: mesa, cadeira e monitor** — Governo do Rio Grande do Sul
-  - Resumo: Cartilha gaúcha para quem trabalha de casa: mesa com espaço para as pernas, cadeira com regulagem de altura e apoio lombar, monitor a uma distância de 50 a 70 cm dos olhos e suporte para notebook.
-  - Link: https://planejamento.rs.gov.br/upload/arquivos/202010/09163726-cartilha-higiene-e-seguranca.pdf
-- **Ajuste cadeira, tela, teclado e mouse em poucos passos** — Tribunal de Contas do Estado de São Paulo
-  - Resumo: Guia ilustrado para regular cada item do posto de trabalho e organizar as pausas. Vale para qualquer lugar onde você trabalha, inclusive em casa.
-  - Link: https://tce.sp.gov.br/publicacoes/cartilha-orientacoes-ergonomicas
-- **NR-17: o conforto no trabalho previsto em norma** — Ministério do Trabalho e Emprego
-  - Resumo: A norma brasileira de ergonomia parte de um princípio simples: o posto de trabalho é que deve se adaptar à pessoa. Para o trabalho sentado, prevê cadeira com apoio lombar e apoio para os pés quando necessário.
-  - Link: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-17.pdf
-
-### Alimentação (3)
-
-- **Guia Alimentar para a População Brasileira** — Ministério da Saúde
-  - Resumo: A regra central é fazer de alimentos in natura ou minimamente processados a base da alimentação e evitar os ultraprocessados. Também recomenda comer com regularidade e atenção.
-  - Link: https://www.gov.br/saude/pt-br/assuntos/saude-brasil/publicacoes-para-promocao-a-saude/guia_alimentar_populacao_brasileira_2ed.pdf
-- **Dez passos para uma alimentação saudável** — Secretaria-Geral da Presidência · Consea
-  - Resumo: Resumo do Guia Alimentar: usar óleo, sal e açúcar em pequenas quantidades, limitar os processados, planejar o tempo das refeições e preferir comida feita na hora quando comer fora.
-  - Link: https://www.gov.br/secretariageral/pt-br/consea/noticias/2017/guia-alimentar-para-a-populacao-brasileira-ensina-10-passos-para-alimentacao-saudavel
-- **Guia Alimentar em versão resumida** — Biblioteca Virtual em Saúde
-  - Resumo: Versão de bolso do guia oficial, com as recomendações principais em poucas páginas. Boa porta de entrada para quem não tem tempo de ler o documento completo.
-  - Link: https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_versao_resumida.pdf
-
-### Sono e Descanso (3)
-
-- **Durma Bem, Viva Melhor: Dia Mundial do Sono 2026** — Biblioteca Virtual em Saúde
-  - Resumo: Manter um horário consistente todos os dias é essencial, com meta de pelo menos 7 horas de sono por noite. Reduzir a luz no quarto, principalmente a das telas, ajuda a adormecer.
-  - Link: https://bvsms.saude.gov.br/durma-bem-viva-melhor-13-3-dia-mundial-do-sono-2026/
-- **Dicas práticas para dormir melhor** — Biblioteca Virtual em Saúde
-  - Resumo: Encerre o trabalho pelo menos duas horas antes de dormir, mantenha horário regular até no fim de semana e não use a cama para trabalhar. Se o sono não vier em 15 a 30 minutos, levante e vá para outro cômodo.
-  - Link: https://bvsms.saude.gov.br/bvs/dicas/256_disturbios_sono.html
-- **O sono é essencial para a saúde** — Biblioteca Virtual em Saúde
-  - Resumo: Material do Dia Mundial do Sono que trata o sono como parte do cuidado com a saúde e reúne orientações para dormir melhor.
-  - Link: https://bvsms.saude.gov.br/o-sono-e-essencial-para-a-saude-17-3-dia-mundial-do-sono/
-
-### Movimento e Exercícios (3)
-
-- **Guia de Atividade Física para a População Brasileira** — Ministério da Saúde
-  - Resumo: Para adultos, a recomendação é de 150 a 300 minutos de atividade moderada por semana, ou de 75 a 150 minutos de atividade intensa.
-  - Link: https://www.gov.br/saude/pt-br/assuntos/noticias/2021/julho/ministerio-da-saude-lanca-o-primeiro-guia-para-promocao-de-atividade-fisica-no-pais
-- **Mover para viver: cada movimento conta** — Biblioteca Virtual em Saúde
-  - Resumo: Atividade física é qualquer movimento do corpo que gaste energia, incluindo trabalho, tarefas domésticas e lazer. Praticar com regularidade reduz o risco de hipertensão, AVC, diabetes e depressão.
-  - Link: https://bvsms.saude.gov.br/mover-para-viver-06-4-dia-mundial-da-atividade-fisica/
-- **Atividade física regular ajuda a dormir melhor** — Ministério da Saúde
-  - Resumo: Exercitar-se com regularidade melhora a qualidade do sono. A orientação é evitar o treino à noite, porque ele pode deixar o corpo desperto demais na hora de deitar.
-  - Link: https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-exercitar/noticias/2018/praticar-atividades-fisicas-regularmente-ajuda-a-dormir-melhor
-
-### Produtividade Saudável (3)
-
-- **Longas jornadas aumentam mortes por doença cardíaca e AVC** — OPAS/OMS
-  - Resumo: Estudo da OMS e da OIT estima que trabalhar 55 horas ou mais por semana eleva em 35% o risco de AVC e em 17% o de morte por doença isquêmica do coração, em comparação com jornadas de 35 a 40 horas.
-  - Link: https://www.paho.org/pt/noticias/17-5-2021-longas-jornadas-trabalho-estao-aumentando-mortes-por-doenca-cardiaca-e-acidente
-- **Quase 2 milhões de mortes por ano têm relação com o trabalho** — OPAS/OMS
-  - Resumo: Relatório conjunto da OMS e da OIT analisou 19 fatores de risco ocupacionais. A exposição a longas jornadas foi o principal deles.
-  - Link: https://www.paho.org/pt/noticias/16-9-2021-omsoit-quase-2-milhoes-pessoas-morrem-por-causas-relacionadas-ao-trabalho-cada
-- **Trabalho em excesso eleva risco de derrame e doenças cardíacas** — Biblioteca Virtual em Saúde
-  - Resumo: Apresenta, em português e em linguagem acessível, os resultados da pesquisa da OMS sobre os efeitos das longas jornadas na saúde do coração e do cérebro.
-  - Link: https://bvsms.saude.gov.br/trabalho-em-excesso-eleva-risco-de-derrame-e-doencas-cardiacas-revela-pesquisa-da-oms/
+O conteúdo vigente fica em `src/data/articles.ts` (19 artigos: Saúde Mental 3, Home Office Saudável 4, Alimentação 3, Sono e Descanso 3, Movimento e Exercícios 3, Produtividade Saudável 3), com fonte, link e data de consulta de cada um.
