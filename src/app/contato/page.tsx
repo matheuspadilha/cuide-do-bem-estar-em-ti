@@ -36,7 +36,7 @@ export default function ContactPage() {
         {contactEmail ? (
           <a
             href={`mailto:${contactEmail}`}
-            className="inline-flex min-h-[50px] items-center self-start rounded-full bg-primary px-[26px] font-semibold text-on-primary no-underline hover:text-on-primary hover:brightness-110"
+            className="inline-flex min-h-[50px] max-w-full items-center self-start rounded-full bg-primary px-[26px] font-semibold text-on-primary no-underline [overflow-wrap:anywhere] hover:text-on-primary hover:brightness-110 max-[380px]:px-4 max-[380px]:text-[15px]"
           >
             {contactEmail}
           </a>

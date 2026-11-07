@@ -65,8 +65,9 @@ Em monitor ultrawide (34", 3440 px), a linha de batimento do topo terminava por 
 
 O link da NR-17 apontava para o texto anterior à revisão de 2021 (Portaria MTP nº 423). Foi trocado pelo texto vigente consolidado, publicado na página de normas regulamentadoras vigentes do Ministério do Trabalho e Emprego, e o resumo foi conferido contra ele.
 
+Na mesma data, o e-mail do projeto (`cuidedobemestaremti@gmail.com`) foi preenchido em `src/data/contact.ts`, e a página de contato passou a mostrar o botão `mailto:`.
+
 ## Pendências
 
 - **Firefox:** o navegador de teste não abre no ambiente isolado usado na validação. Testar manualmente no Firefox atual.
 - **Medição na produção:** repetir o Lighthouse na URL publicada na Vercel.
-- **E-mail do projeto:** preencher `src/data/contact.ts` quando o endereço existir.

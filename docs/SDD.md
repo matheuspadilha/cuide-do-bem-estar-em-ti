@@ -322,7 +322,6 @@ Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os 
 
 | Item | Responsável | Necessário até |
 |---|---|---|
-| E-mail do projeto (recomendado: conta dedicada com encaminhamento) | Matheus | Etapa 09 |
 | Repositório no GitHub | Matheus | Etapa 14 |
 | Conta na Vercel | Matheus | Etapa 14 |
 
@@ -341,6 +340,7 @@ Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os 
 | Tema escuro | Pedido do autor; comum entre profissionais de TI |
 | Botão de pausa da animação | Exigência da WCAG 2.2.2 para movimento contínuo |
 | Botão "Voltar ao topo" com foco no logo | Facilita a navegação em página longa, inclusive por teclado |
+| E-mail do projeto: `cuidedobemestaremti@gmail.com` | Conta dedicada evita expor o e-mail pessoal e passa confiança |
 | Prefixo `chore:` na Etapa 13 | Não há testes automatizados no escopo |
 
 ---
