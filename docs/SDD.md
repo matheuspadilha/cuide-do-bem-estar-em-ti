@@ -125,7 +125,7 @@ Cores fixas nos dois temas: `vital` `#5EF0C8` (linha de batimento e destaques no
 
 Ordem das seções em `/`:
 
-1. **Cabeçalho:** logo (ícone + nome), navegação (Categorias, Artigos, Sobre o projeto, Contato) e botão de tema. Abaixo de 820 px, a navegação vira menu em botão; o cabeçalho cabe em uma linha a partir de 360 px.
+1. **Cabeçalho:** logo (ícone + nome), navegação (Categorias, Artigos, Sobre o projeto, Contato) e botão de tema. Abaixo de 960 px, a navegação vira menu em botão; o cabeçalho cabe em uma linha a partir de 360 px.
 2. **Topo (hero):** fundo `hero` de ponta a ponta.
    - Faixa: "Fontes oficiais, em linguagem simples".
    - Título: "Cuide do Bem-Estar em TI" (sem quebra no hífen de "Bem-Estar").
