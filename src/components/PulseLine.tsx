@@ -3,10 +3,27 @@
 import { useState } from "react";
 import { PauseIcon, PlayIcon } from "@/components/icons/InterfaceIcons";
 
-const PULSE_PATH =
-  "M0 52h250l18-8 14 8h60l16-44 22 76 18-52 12 20h180l18-8 14 8h70l16-44 22 76 18-52 12 20h190l18-8 14 8h218";
+// Um batimento a cada 400 px, repetido até 4000 px. A linha não é esticada: telas menores
+// mostram o trecho central e telas maiores ampliam só um pouco, então o batimento mantém
+// a mesma proporção do celular ao monitor ultrawide.
+const BEAT = "h120l18-8 14 8h60l16-44 22 76 18-52 12 20h120";
+const PULSE_PATH = `M0 52${BEAT.repeat(10)}`;
 
 const pausedClass = "group-data-[paused=true]:[animation-play-state:paused]";
+
+function Line({ className }: { className: string }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 4000 88"
+      preserveAspectRatio="xMidYMid slice"
+      fill="none"
+      className={`absolute bottom-3.5 left-0 h-[88px] w-full stroke-vital ${className}`}
+    >
+      <path d={PULSE_PATH} strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
 
 // Linha de batimento que atravessa o topo. O botão de pausa atende à WCAG 2.2.2;
 // com "reduzir movimento" no sistema, a linha fica estática e o botão some.
@@ -15,32 +32,10 @@ export default function PulseLine() {
 
   return (
     <div data-paused={paused} className="group">
-      <svg
-        aria-hidden="true"
-        viewBox="0 0 1200 88"
-        preserveAspectRatio="none"
-        fill="none"
-        className="absolute bottom-3.5 left-0 h-[88px] w-full stroke-vital"
-      >
-        <path
-          d={PULSE_PATH}
-          pathLength={1}
-          vectorEffect="non-scaling-stroke"
-          strokeWidth={3}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className={`animate-pulse-draw opacity-35 [stroke-dasharray:2] [stroke-dashoffset:2] motion-reduce:animate-none motion-reduce:opacity-100 motion-reduce:[stroke-dashoffset:0] ${pausedClass}`}
-        />
-        <path
-          d={PULSE_PATH}
-          pathLength={1}
-          vectorEffect="non-scaling-stroke"
-          strokeWidth={3}
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className={`animate-pulse-trace [stroke-dasharray:0.35_1.65] [stroke-dashoffset:2] motion-reduce:hidden ${pausedClass}`}
-        />
-      </svg>
+      <Line
+        className={`animate-pulse-draw opacity-35 motion-reduce:animate-none motion-reduce:opacity-100 ${pausedClass}`}
+      />
+      <Line className={`animate-pulse-trace motion-reduce:hidden ${pausedClass}`} />
 
       <button
         type="button"
