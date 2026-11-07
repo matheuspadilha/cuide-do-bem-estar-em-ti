@@ -42,6 +42,32 @@ export function MenuIcon(props: IconProps) {
   );
 }
 
+export function ArrowRightIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" strokeWidth={2.4} aria-hidden="true" {...strokeProps} {...props}>
+      <path d="M5 12h14" />
+      <path d="M13 6l6 6-6 6" />
+    </svg>
+  );
+}
+
+export function PlayIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M7 4.5v15l13-7.5z" />
+    </svg>
+  );
+}
+
+export function PauseIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <rect x="6" y="4.5" width="4" height="15" rx="1" />
+      <rect x="14" y="4.5" width="4" height="15" rx="1" />
+    </svg>
+  );
+}
+
 export function CloseIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" strokeWidth={2.2} aria-hidden="true" {...strokeProps} {...props}>

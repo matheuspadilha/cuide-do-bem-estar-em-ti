@@ -95,6 +95,25 @@
   --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
 
   --radius-card: 20px 20px 20px 6px;
+
+  /* Linha de batimento do topo: desenho inicial e trecho que percorre a linha em loop */
+  --animate-pulse-draw: pulse-draw 2.6s ease-out 0.2s forwards;
+  --animate-pulse-trace: pulse-trace 3.2s linear infinite;
+
+  @keyframes pulse-draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes pulse-trace {
+    from {
+      stroke-dashoffset: 2;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
 }
 
 /* Contêiner padrão das seções: largura máxima e margem lateral fluida */
