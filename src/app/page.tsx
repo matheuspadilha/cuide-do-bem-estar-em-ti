@@ -6,7 +6,7 @@ import SupportBanner from "@/components/SupportBanner";
 
 export default function Home() {
   return (
-    <main>
+    <main id="conteudo" tabIndex={-1} className="focus:outline-none">
       <Hero />
       <CategoryExplorer />
       <SupportBanner />

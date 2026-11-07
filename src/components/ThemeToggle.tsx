@@ -45,12 +45,12 @@ export default function ThemeToggle() {
     <button
       type="button"
       onClick={toggleTheme}
-      aria-label="Alternar tema escuro"
-      aria-pressed={isDark}
       className="inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-full border border-line bg-surface-alt px-3 text-[15px] font-medium text-ink"
     >
       {isDark ? <SunIcon className="size-[18px]" /> : <MoonIcon className="size-[18px]" />}
-      <span className="max-[960px]:hidden">{isDark ? "Tema claro" : "Tema escuro"}</span>
+      {/* O nome acessível ("Ativar tema escuro") contém o texto visível, como pede a WCAG 2.5.3. */}
+      <span className="sr-only">Ativar </span>
+      <span className="max-[960px]:sr-only">{isDark ? "Tema claro" : "Tema escuro"}</span>
     </button>
   );
 }

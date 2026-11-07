@@ -1,8 +1,29 @@
+import type { Metadata } from "next";
 import { contactEmail } from "@/data/contact";
+import { siteName } from "@/data/site";
+
+const description =
+  "Fale com o projeto Cuide do Bem-Estar em TI: sugestões de material, links que não abrem ou parcerias em Novo Hamburgo.";
+
+// O openGraph da página substitui o do layout por inteiro, por isso repete os campos comuns.
+export const metadata: Metadata = {
+  title: "Contato",
+  description,
+  alternates: { canonical: "/contato" },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    siteName,
+    url: "/contato",
+    title: `Contato · ${siteName}`,
+    description,
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: siteName }],
+  },
+};
 
 export default function ContactPage() {
   return (
-    <main className="page-container py-[clamp(48px,8vw,96px)]">
+    <main id="conteudo" tabIndex={-1} className="page-container py-[clamp(48px,8vw,96px)] focus:outline-none">
       <div className="flex max-w-[720px] flex-col gap-5">
         <h1 className="text-[clamp(36px,5vw,56px)] leading-none font-bold tracking-[-0.025em]">
           Contato
