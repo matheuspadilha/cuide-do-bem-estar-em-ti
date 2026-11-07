@@ -51,6 +51,15 @@ export function ArrowRightIcon(props: IconProps) {
   );
 }
 
+export function ArrowUpIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" strokeWidth={2.4} aria-hidden="true" {...strokeProps} {...props}>
+      <path d="M12 19V5" />
+      <path d="M6 11l6-6 6 6" />
+    </svg>
+  );
+}
+
 export function ExternalLinkIcon(props: IconProps) {
   return (
     <svg viewBox="0 0 24 24" strokeWidth={2.2} aria-hidden="true" {...strokeProps} {...props}>

@@ -10,6 +10,7 @@ export default function Header() {
       <div className="page-container flex flex-wrap items-center gap-x-2 gap-y-2 py-3">
         <Link
           href="/"
+          id="inicio"
           className="mr-auto flex min-h-11 min-w-0 pr-2 items-center gap-2.5 text-ink no-underline max-[380px]:gap-2 hover:text-ink max-[960px]:flex-1"
         >
           <span className="inline-flex size-9 max-[380px]:size-8 shrink-0 items-center justify-center rounded-[12px_12px_12px_4px] bg-primary text-on-primary">

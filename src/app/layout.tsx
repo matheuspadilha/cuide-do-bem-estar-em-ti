@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, Figtree } from "next/font/google";
+import BackToTop from "@/components/BackToTop";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import "./globals.css";
 
@@ -34,6 +36,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <Header />
         {children}
+        <Footer />
+        <BackToTop />
       </body>
     </html>
   );
