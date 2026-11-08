@@ -26,7 +26,7 @@ export default function AboutSection() {
         </h2>
         <p className="text-muted">
           Quem trabalha com Tecnologia da Informação passa boa parte do dia diante de telas,
-          sentado e sob pressão de prazos. A informação de qualidade sobre saúde existe, mas está
+          sentado e sob pressão de prazos. Há muita informação confiável sobre saúde, mas ela está
           espalhada em guias longos e portais difíceis de navegar.
         </p>
         <p className="text-muted">

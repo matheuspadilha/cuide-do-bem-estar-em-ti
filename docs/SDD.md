@@ -139,7 +139,7 @@ Ordem das seções em `/`:
 5. **Apoio emocional:** "Precisa conversar agora?" com CVV 188 (link `tel:188`), UBS e CAPS.
 6. **Sobre o projeto:** proposta, público, Novo Hamburgo e três destaques (fontes oficiais, resumo antes do link, ODS 3).
 7. **Chamada de contato:** texto curto e link para `/contato`.
-8. **Rodapé:** "Cuide do Bem-Estar em TI · Projeto acadêmico · Uninter · Engenharia de Software · ODS 3 · Novo Hamburgo/RS" e aviso de conteúdo educativo.
+8. **Rodapé:** "Cuide do Bem-Estar em TI · Projeto acadêmico de Matheus Padilha · Uninter · Engenharia de Software · ODS 3 · Novo Hamburgo/RS" e aviso de conteúdo educativo.
 9. **Botão flutuante "Voltar ao topo":** aparece após cerca de 600 px de rolagem; sobe a página e move o foco para o logo do cabeçalho. Quando oculto, não recebe foco.
 
 Página `/contato`: título, texto de convite e link `mailto:` para o e-mail do projeto.
@@ -343,6 +343,7 @@ Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os 
 | Botão "Voltar ao topo" com foco no logo | Facilita a navegação em página longa, inclusive por teclado |
 | E-mail do projeto: `cuidedobemestaremti@gmail.com` | Conta dedicada evita expor o e-mail pessoal e passa confiança |
 | Cabeçalhos de segurança sem CSP completa | A CSP exigiria nonce no script de tema, o que tira a geração estática; o site não tem dados nem formulários |
+| Autoria nos metadados (`authors`, `creator`) e no rodapé | Identifica o autor nos buscadores e para quem visita o site |
 | Prefixo `chore:` na Etapa 13 | Não há testes automatizados no escopo |
 
 ---

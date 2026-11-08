@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     template: `%s · ${siteName}`,
   },
   description: siteDescription,
+  authors: [{ name: "Matheus Padilha", url: "https://github.com/matheuspadilha" }],
+  creator: "Matheus Padilha",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

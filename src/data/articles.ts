@@ -17,7 +17,7 @@ export const articles: Article[] = [
     category: "saude-mental",
     title: "Burnout é um fenômeno ocupacional, diz a OMS",
     summary:
-      "Na classificação internacional de doenças (CID-11), o burnout aparece como fenômeno ligado ao contexto de trabalho, resultado de estresse crônico não gerenciado, e não como uma condição médica.",
+      "Na Classificação Internacional de Doenças (CID-11), o burnout aparece como fenômeno ligado ao contexto de trabalho, resultado de estresse crônico não gerenciado, e não como uma condição médica.",
     source: "OPAS/OMS",
     url: "https://www.paho.org/pt/noticias/28-5-2019-cid-burnout-e-um-fenomeno-ocupacional",
     accessedAt: "2026-11-07",
@@ -35,7 +35,7 @@ export const articles: Article[] = [
   {
     id: "as-vantagens-de-trabalhar-de-casa",
     category: "home-office",
-    title: "As vantagens de trabalhar de casa, segundo OMS e OIT",
+    title: "As vantagens de trabalhar de casa, segundo a OMS e a OIT",
     summary:
       "Mais equilíbrio entre vida profissional e pessoal, mais flexibilidade na carga horária e o fim do trajeto casa-trabalho estão entre os benefícios listados. Com um bom espaço e combinados claros, dá para aproveitar todos eles.",
     source: "ONU News",
@@ -117,7 +117,7 @@ export const articles: Article[] = [
     category: "sono",
     title: "Dicas práticas para dormir melhor",
     summary:
-      "Encerre o trabalho pelo menos duas horas antes de dormir, mantenha horário regular até no fim de semana e não use a cama para trabalhar. Se o sono não vier em 15 a 30 minutos, levante e vá para outro cômodo.",
+      "Encerre o trabalho pelo menos duas horas antes de dormir, mantenha horário regular inclusive no fim de semana e não use a cama para trabalhar. Se o sono não vier em 15 a 30 minutos, levante e vá para outro cômodo.",
     source: "Biblioteca Virtual em Saúde",
     url: "https://bvsms.saude.gov.br/bvs/dicas/256_disturbios_sono.html",
     accessedAt: "2026-11-07",
@@ -185,7 +185,7 @@ export const articles: Article[] = [
   {
     id: "trabalho-em-excesso-eleva-risco",
     category: "produtividade",
-    title: "Trabalho em excesso eleva risco de derrame e doenças cardíacas",
+    title: "Trabalho em excesso eleva o risco de derrame e doenças cardíacas",
     summary:
       "Apresenta, em português e em linguagem acessível, os resultados da pesquisa da OMS sobre os efeitos das longas jornadas na saúde do coração e do cérebro.",
     source: "Biblioteca Virtual em Saúde",

@@ -32,7 +32,7 @@ export default function CategoryExplorer() {
         <div className="page-container flex flex-col gap-6 pt-[clamp(36px,6vw,64px)] pb-[clamp(28px,4vw,40px)]">
           <div className="flex max-w-[640px] flex-col gap-2">
             <h2 className="text-[clamp(27px,3.6vw,36px)] font-bold">Escolha por onde começar</h2>
-            <p className="text-muted">Seis frentes de cuidado. Toque em uma para ver os artigos.</p>
+            <p className="text-muted">Seis frentes de cuidado. Selecione uma para ver os artigos.</p>
           </div>
 
           <ul className="grid grid-cols-3 gap-4 max-[1000px]:grid-cols-2 max-[640px]:gap-2.5">
@@ -73,7 +73,7 @@ export default function CategoryExplorer() {
       >
         <div className="flex max-w-[720px] flex-col gap-1.5">
           <p aria-live="polite" className="text-[15px] font-semibold text-primary">
-            {selectedArticles.length} artigos de fontes oficiais, resumidos
+            {selectedArticles.length} artigos resumidos de fontes oficiais
           </p>
           <h2 id="artigos-titulo" className="text-[clamp(27px,3.6vw,36px)] font-bold">
             {selectedCategory.name}
