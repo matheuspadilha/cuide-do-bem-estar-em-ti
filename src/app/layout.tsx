@@ -36,6 +36,7 @@ export const metadata: Metadata = {
     description: siteDescription,
   },
   twitter: { card: "summary_large_image" },
+  verification: { google: "ZHxE3VykZCohjou4wmkJaZfyRP105Y0E6Kjuph_Y3bo" },
 };
 
 export const viewport: Viewport = {
