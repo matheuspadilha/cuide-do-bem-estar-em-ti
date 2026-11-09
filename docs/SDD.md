@@ -151,7 +151,7 @@ Página `/contato`: título, texto de convite e link `mailto:` para o e-mail do 
 | Ordem | Slug | Nome | Descrição |
 |---|---|---|---|
 | 1 | `saude-mental` | Saúde Mental | Reconhecer os sinais de sobrecarga e saber onde encontrar apoio. |
-| 2 | `home-office` | Home Office Saudável | Como montar um espaço confortável e aproveitar o melhor de trabalhar de casa. |
+| 2 | `home-office` | Home Office Saudável | Ergonomia, postura e um espaço confortável para aproveitar o melhor do trabalho remoto. |
 | 3 | `alimentacao` | Alimentação | Comer bem em dias corridos, com base no Guia Alimentar brasileiro. |
 | 4 | `sono` | Sono e Descanso | Dormir melhor e recuperar a mente depois de um dia de tela. |
 | 5 | `movimento` | Movimento e Exercícios | Mais movimento no dia a dia, mesmo com a agenda cheia. |
@@ -345,6 +345,7 @@ Concluída em 07/11/2026, na Etapa 07: os 19 resumos foram conferidos contra os 
 | Cabeçalhos de segurança sem CSP completa | A CSP exigiria nonce no script de tema, o que tira a geração estática; o site não tem dados nem formulários |
 | Autoria nos metadados (`authors`, `creator`) e no rodapé | Identifica o autor nos buscadores e para quem visita o site |
 | Prefixo `chore:` na Etapa 13 | Não há testes automatizados no escopo |
+| Textos com "ergonomia", "postura", "trabalho remoto", "programadores" e "desenvolvedores" (descrição do site, categoria Home Office Saudável e "Sobre o projeto") | Esses termos não apareciam no HTML indexado; ergonomia é um dos objetivos do projeto e os demais são como o público pesquisa |
 
 ---
 

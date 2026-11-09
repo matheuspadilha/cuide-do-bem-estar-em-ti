@@ -26,13 +26,14 @@ export default function AboutSection() {
         </h2>
         <p className="text-muted">
           Quem trabalha com Tecnologia da Informação passa boa parte do dia diante de telas,
-          sentado e sob pressão de prazos. Há muita informação confiável sobre saúde, mas ela está
-          espalhada em guias longos e portais difíceis de navegar.
+          sentado e sob pressão de prazos, o que pesa na postura, no sono e na saúde mental. Há
+          muita informação confiável sobre saúde, mas ela está espalhada em guias longos e portais
+          difíceis de navegar.
         </p>
         <p className="text-muted">
           Esta plataforma reúne esse material, resume o essencial e aponta para a fonte original,
-          para que profissionais de TI e moradores de Novo Hamburgo encontrem orientação confiável
-          em poucos minutos.
+          para que programadores, desenvolvedores, demais profissionais de TI e moradores de Novo
+          Hamburgo encontrem orientação confiável em poucos minutos.
         </p>
       </div>
 

@@ -8,4 +8,4 @@ export const siteUrl =
 export const siteName = "Cuide do Bem-Estar em TI";
 
 export const siteDescription =
-  "Resumos curtos de orientações oficiais de saúde para profissionais de Tecnologia da Informação: saúde mental, home office, alimentação, sono, movimento e produtividade saudável.";
+  "Orientações oficiais de saúde resumidas para profissionais de Tecnologia da Informação: saúde mental, ergonomia e postura, home office, sono, alimentação e exercícios.";

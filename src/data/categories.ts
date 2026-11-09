@@ -10,7 +10,7 @@ export const categories: Category[] = [
     slug: "home-office",
     name: "Home Office Saudável",
     description:
-      "Como montar um espaço confortável e aproveitar o melhor de trabalhar de casa.",
+      "Ergonomia, postura e um espaço confortável para aproveitar o melhor do trabalho remoto.",
   },
   {
     slug: "alimentacao",
